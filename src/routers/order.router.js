@@ -10,7 +10,7 @@ import { sendEmailReceipt } from '../helpers/mail.helper.js';
 const router = Router();
 router.use(auth);
 
-router.post(
+router.post( 
   '/create',
   handler(async (req, res) => {
     const order = req.body;
